@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #eef1f7;
+  padding: 20px;
+}
+
+.header-form {
+  text-align: center;
+  color: #2c3e50;
+  margin-bottom: 20px;
+}
+
+.box-form {
+  background: white;
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.group-input {
+  margin-bottom: 15px;
+}
+
+.group-input label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #555;
+}
+
+.group-input input,
+.group-input select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.btn-hitung {
+  width: 100%;
+  padding: 12px;
+  background-color: #5b7db1;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.btn-hitung:hover {
+  background-color: #4a6a9a;
+}
+
+.box-hasil {
+  margin-top: 20px;
+  padding: 15px;
+  background: #f9f9f9;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+
+.box-hasil table {
+  width: 100%;
+}
+
+.box-hasil td {
+  padding: 8px 5px;
+  border-bottom: 1px solid #eee;
+}
+
+.wrapper-hapus {
+  text-align: center;
+  margin-top: 15px;
+}
+
+.btn-hapus {
+  background: #e67e22;  
+  color: white;
+  padding: 8px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.btn-hapus:hover {
+  background: #d35400;
+}
